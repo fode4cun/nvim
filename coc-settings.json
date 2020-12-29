@@ -1,0 +1,78 @@
+{
+    // suggestions
+    // "suggest.echodocSupport": true,
+    // TODO add more labels and give them cool glyphs
+    "suggest.completionItemKindLabels": {
+        "text": "t",
+        "method": "m",
+        "function": ""
+    },
+    "snippets.priority": 1,
+
+    //"yank.priority": 1,
+    "suggest.languageSourcePriority": 99,
+    "coc.source.file.priority": 2,
+    "coc.source.around.priority": 3,
+    "coc.source.buffer.priority": 4,
+
+    // diagnostics
+    "diagnostic.errorSign": " ",
+    "diagnostic.warningSign": " ",
+    "diagnostic.infoSign": "",
+    "diagnostic.hintSign": " ",
+
+    // "diagnostic.displayByAle": true,
+    // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
+    // list
+    "list.indicator": ">",
+    "list.selectedSignText": " ",
+
+    // autoformat
+    "coc.preferences.formatOnSaveFiletypes": [
+        "css",
+        "html",
+        "markdown",
+        "javascript",
+        "yaml"
+    ],
+    "coc.preferences.hoverTarget": "float",
+
+    // python config
+    "python.pythonPath": "~/.pyenv/versions/3.8.5/bin/python3.8",
+    "python.venvPath": "/home/fode4cun/.local/share/virtualenvs/",
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": false,
+    "python.jediEnabled": false,
+
+
+    // snippets
+    "snippets.ultisnips.directories": [],
+
+    // emmet
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact"
+    },
+
+    // explorer
+    "explorer.width": 30,
+    "explorer.file.root.template": "[icon] [git] [hidden & 1][root]",
+    "explorer.icon.enableNerdfont": true,
+    "explorer.file.showHiddenFiles": true,
+    "explorer.previewAction.onHover": false,
+    "explorer.icon.enableVimDevicons": false,
+    "explorer.keyMappings.global": {
+        "<cr>": [
+            "expandable?",
+            "expand",
+            "open"
+        ],
+        "v": "open:vsplit"
+    },
+
+    //coc-emoji
+    "coc.source.emoji.filetypes": [
+        "markdown"
+    ]
+}
