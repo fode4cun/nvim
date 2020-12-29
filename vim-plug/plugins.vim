@@ -45,6 +45,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
+    " Preview markdown on your modern browser with synchronised scrolling and flexible configuration
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 
 call plug#end()
 

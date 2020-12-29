@@ -26,6 +26,7 @@ source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
 source $HOME/.config/nvim/plug-config/tagalong.vim
+source $HOME/.config/nvim/plug-config/markdown-preview.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/xtabline.vim
 
