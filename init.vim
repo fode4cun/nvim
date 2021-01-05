@@ -8,7 +8,6 @@
 " General Settings
 source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/general/settings.vim
-source $HOME/.config/nvim/general/functions.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
 " Themes
@@ -21,6 +20,7 @@ source $HOME/.config/nvim/plug-config/vim-commentary.vim
 source $HOME/.config/nvim/plug-config/better-whitespace.vim
 " source $HOME/.config/nvim/plug-config/barbar.vim
 source $HOME/.config/nvim/plug-config/closetags.vim
+source $HOME/.config/nvim/plug-config/ctrlp.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/coc/coc.vim
 source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim

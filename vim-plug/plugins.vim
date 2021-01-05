@@ -36,8 +36,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
-    " Colorizer
-    Plug 'norcalli/nvim-colorizer.lua'
     " Tabline
     Plug 'mg979/vim-xtabline'
     " Airline
