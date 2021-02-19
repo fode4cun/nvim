@@ -29,6 +29,7 @@ source $HOME/.config/nvim/plug-config/tagalong.vim
 source $HOME/.config/nvim/plug-config/markdown-preview.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/xtabline.vim
+source $HOME/.config/nvim/plug-config/indentline.vim
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))

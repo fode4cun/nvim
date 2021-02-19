@@ -37,6 +37,7 @@ let g:which_key_map['n'] = [ ':let @/ = ""'                                    ,
 let g:which_key_map['t'] = [ ':ToggleWhitespace'                               , 'toggle trailing whitespace']
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['w'] = [ ':StripWhitespace'                                , 'strip whitespace']
+let g:which_key_map['l'] = [ ':IndentLinesToggle'                              , 'toggle indent line']
 
 
 call which_key#register('<Space>', "g:which_key_map")

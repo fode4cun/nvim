@@ -41,10 +41,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    " Snippets
+    Plug 'honza/vim-snippets'
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
     " Preview markdown on your modern browser with synchronised scrolling and flexible configuration
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+    " IndentLine
+    Plug 'Yggdroot/indentLine'
 
 call plug#end()
 

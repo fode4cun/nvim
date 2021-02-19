@@ -1,7 +1,5 @@
 let g:coc_global_extensions = [
     \ 'coc-actions',
-	\ 'coc-css',
-	\ 'coc-cssmodules',
 	\ 'coc-emmet',
     \ 'coc-emoji',
 	\ 'coc-explorer',

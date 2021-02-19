@@ -20,10 +20,7 @@
     "list.selectedSignText": " ",
 
     "coc.preferences.formatOnSaveFiletypes": [
-        "css",
-        "html",
         "markdown",
-        "javascript",
         "yaml"
     ],
     "coc.preferences.hoverTarget": "float",
@@ -34,7 +31,7 @@
     "python.jediEnabled": false,
 
 
-    "snippets.ultisnips.directories": [],
+    "snippets.ultisnips.directories": ["~/.config/nvim/autoload/plugged/vim-snippets/UltiSnips/"],
 
     "emmet.includeLanguages": {
         "vue-html": "html",
