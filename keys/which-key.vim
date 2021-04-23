@@ -38,6 +38,8 @@ let g:which_key_map['t'] = [ ':ToggleWhitespace'                               ,
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['w'] = [ ':StripWhitespace'                                , 'strip whitespace']
 let g:which_key_map['l'] = [ ':IndentLinesToggle'                              , 'toggle indent line']
+let g:which_key_map['4'] = [ ':set shiftwidth=4'                               , 'tab width 4']
+let g:which_key_map['a'] = [ ':highlight Normal guibg=none'                    , 'transparent']
 
 
 call which_key#register('<Space>', "g:which_key_map")

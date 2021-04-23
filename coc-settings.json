@@ -4,8 +4,8 @@
         "method": "m",
         "function": ""
     },
-    "snippets.priority": 1,
 
+    "snippets.priority": 1,
     "suggest.languageSourcePriority": 99,
     "coc.source.file.priority": 2,
     "coc.source.around.priority": 3,
@@ -19,10 +19,7 @@
     "list.indicator": ">",
     "list.selectedSignText": " ",
 
-    "coc.preferences.formatOnSaveFiletypes": [
-        "markdown",
-        "yaml"
-    ],
+    "coc.preferences.formatOnSaveFiletypes": [],
     "coc.preferences.hoverTarget": "float",
 
     "python.linting.enabled": true,
