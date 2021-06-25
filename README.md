@@ -10,7 +10,7 @@
 
 ## Clone repo
 
-    git clone git@github.com:fode4cun/nvim.git ~/.config/
+    git clone git@github.com:anton-dovnar/nvim.git ~/.config/
 
 ## Installation
 
