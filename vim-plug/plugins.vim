@@ -14,6 +14,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'romgrk/barbar.nvim'
     " Plug 'kyazdani42/nvim-web-devicons'
 
+    Plug 'turbio/bracey.vim'
     " Show Tralling WhiteSpaces
     Plug 'ntpeters/vim-better-whitespace'
     " Better Comments
