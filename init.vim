@@ -31,6 +31,9 @@ source $HOME/.config/nvim/plug-config/markdown-preview.vim
 source $HOME/.config/nvim/plug-config/quickscope.vim
 source $HOME/.config/nvim/plug-config/xtabline.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
+source $HOME/.config/nvim/plug-config/ternjs.vim
+source $HOME/.config/nvim/plug-config/deoplete.vim
+source $HOME/.config/nvim/plug-config/neomake.vim
 
 " Add paths to node and python here
 if !empty(glob("~/.config/nvim/paths.vim"))
